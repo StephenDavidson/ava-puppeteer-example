@@ -1,0 +1,18 @@
+{
+  "name": "ava-puppeteer-example",
+  "version": "1.0.0",
+  "description": "Example of browser tests using AVA with puppeteer",
+  "repository": "https://github.com/StephenDavidson/ava-puppeteer-example",
+  "author": "Stephen Davidson",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "puppeteer": "^1.1.1"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/ava"
+  },
+  "ava": {
+    "files": "**/*.test.js"
+  }
+}

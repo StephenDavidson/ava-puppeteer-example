@@ -1,0 +1,21 @@
+sudo: required
+os:
+  - osx
+  - linux
+
+language: node_js
+
+node_js:
+  - "lts/*"
+
+addons:
+  chrome: stable
+
+cache:
+  directories:
+    - node_modules
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
