@@ -7,6 +7,6 @@ Example of ava and puppeteer for browser tests
 ## Getting started
 
 ```bash
-yarn
-yarn test
+npm install
+npm test
 ```
