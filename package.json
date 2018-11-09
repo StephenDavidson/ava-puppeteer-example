@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.25.0",
-    "puppeteer": "^1.8.0"
+    "puppeteer": "^1.10.0"
   },
   "scripts": {
     "test": "node ./node_modules/.bin/ava"
